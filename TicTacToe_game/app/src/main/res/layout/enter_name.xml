@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.microsft.t_adswar.tictactoe_game.enter_name">
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFFF0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Player1 name"/>
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFFF0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Player2 name"/>
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:id="@id/button1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:textSize="20sp"
+        android:textColor="#A4C63900"
+        android:text="Play Now"/>
+
+</RelativeLayout>
